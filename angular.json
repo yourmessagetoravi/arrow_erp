@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "arrow-erp"
+    }
+  },
+  "defaultProject": "arrow-erp",
+  "cli": {
+    "analytics": false
+  }
 }
