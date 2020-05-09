@@ -1,0 +1,8 @@
+<nav class="navbar navbar-light bg-light fixed-top">
+    <a class="navbar-brand" href="#">
+        <img src="http://arrow-multimedia.com/images/logo.png">
+    </a>
+</nav>
+
+<h1 [style.marginTop.px]="'100'" [class.text-danger]="showRed">Test 12345 {{showRed}}</h1>
+<label class="ml-5"><input type="checkbox" (change)="onShowRedChange()" [(ngModel)]="showRed">showRed</label>

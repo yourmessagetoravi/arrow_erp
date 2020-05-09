@@ -7,4 +7,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'arrow-erp';
+  showRed = true;
+
+  onShowRedChange() {
+    alert('Vaue Changed to ' + this.showRed);
+  }
+
 }
